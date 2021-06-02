@@ -1,0 +1,28 @@
+<nz-table #basicTable [nzData]="allCeps">
+  <thead>
+    <tr>
+      <th>Id</th>
+      <th>CEP</th>
+      <th>Endereço</th>
+      <th>Bairro</th>
+      <th>Cidade</th>
+      <th>UF</th>
+      <th>Ações</th>
+    </tr>
+  </thead>
+  <tbody>
+    <tr *ngFor="let data of allCeps">
+      <td>{{ data.id ? data.id : '---'}}</td>
+      <td>{{ data.cep ? data.cep : '---'}}</td>
+      <td>{{ data.logradouro ? data.logradouro : '---'}}</td>
+      <td>{{ data.bairro ? data.bairro : '---'}}</td>
+      <td>{{ data.localidade ? data.localidade : '---'}}</td>
+      <td>{{ data.uf ? data.uf : '---'}}</td>
+      <td>
+        <a (click)="removeCep(data.id)" class="">
+        <i nz-icon nzType="delete" nzTheme="outline"></i>
+        </a>
+      </td>
+    </tr>
+  </tbody>
+</nz-table>
