@@ -1,1 +1,37 @@
-<h1>12332113231231321312313s</h1>>
+<nz-layout class="container">
+  <nz-sider nzCollapsible [(nzCollapsed)]="isCollapsed" [nzTrigger]="null">
+    <div class="logo">
+      <h2>Cep Validações</h2>
+    </div>
+    <ul nz-menu nzTheme="dark" nzMode="inline">
+      <li nz-menu-item >
+        <a routerLink="../home">
+        <i nz-icon  nzType="home" nzTheme="outline"></i>
+        <span>Home</span>
+        </a>
+      </li>
+      <li nz-menu-item >
+        <a routerLink="../validated">
+        <i nz-icon  nzType="unordered-list" nzTheme="outline"></i>
+        <span>Cadastro</span>
+        </a>
+      </li>
+    </ul>
+  </nz-sider>
+  <nz-layout>
+    <nz-header>
+      <i class="trigger" nz-icon [nzType]="isCollapsed ? 'menu-unfold' : 'menu-fold'" (click)="isCollapsed = !isCollapsed"></i>
+    </nz-header>
+    <nz-content>
+      <nz-breadcrumb>
+        <nz-breadcrumb-item>Home</nz-breadcrumb-item>
+        <nz-breadcrumb-item>Validated</nz-breadcrumb-item>
+      </nz-breadcrumb>
+      <div class="inner-content">
+        <app-table-valid></app-table-valid>
+      </div>
+    </nz-content>
+  </nz-layout>
+</nz-layout>
+
+

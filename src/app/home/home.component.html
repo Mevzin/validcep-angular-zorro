@@ -5,20 +5,17 @@
     </div>
     <ul nz-menu nzTheme="dark" nzMode="inline">
       <li nz-menu-item >
-        <a routerLink="../validated">
-        <i nz-icon  nzType="unordered-list" nzTheme="outline"></i>
+        <a routerLink="../home">
+        <i nz-icon  nzType="home" nzTheme="outline"></i>
         <span>Home</span>
         </a>
       </li>
-      <li nz-submenu nzTitle="Options" nzIcon="user">
-        <ul>
-          <li nz-menu-item>
-            <i nz-icon nzType="unordered-list" nzTheme="outline"></i>
-            Tom
-          </li>
-          <li nz-menu-item>Bill</li>
-          <li nz-menu-item>Alex</li>
-        </ul>
+      <li nz-menu-item >
+        <a routerLink="../validated">
+        <i nz-icon  nzType="unordered-list" nzTheme="outline"></i>
+        <span>Cadastro</span>
+        </a>
+      </li>
     </ul>
   </nz-sider>
   <nz-layout>
@@ -27,11 +24,10 @@
     </nz-header>
     <nz-content>
       <nz-breadcrumb>
-        <nz-breadcrumb-item>User</nz-breadcrumb-item>
-        <nz-breadcrumb-item>Bill</nz-breadcrumb-item>
+        <nz-breadcrumb-item>Home</nz-breadcrumb-item>
       </nz-breadcrumb>
       <div class="inner-content">
-        <app-table-valid></app-table-valid>
+
       </div>
     </nz-content>
   </nz-layout>

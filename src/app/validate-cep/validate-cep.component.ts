@@ -7,6 +7,8 @@ import { Component, OnInit } from '@angular/core';
 })
 export class ValidateCepComponent implements OnInit {
 
+  public isCollapsed = false;
+
   constructor() { }
 
   ngOnInit() {
