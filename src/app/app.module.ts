@@ -77,6 +77,7 @@ import { NzUploadModule } from 'ng-zorro-antd/upload';
 import { NzResizableModule } from 'ng-zorro-antd/resizable';
 import { Error404Component } from './error404/error404.component';
 import { CardCepsComponent } from './card-ceps/card-ceps.component';
+import { SearchcepsComponent } from './searchceps/searchceps.component';
 
 
 
@@ -90,7 +91,8 @@ registerLocaleData(pt);
     SearchCepComponent,
     ValidateCepComponent,
     Error404Component,
-    CardCepsComponent
+    CardCepsComponent,
+    SearchcepsComponent
   ],
   imports: [
     BrowserModule,
