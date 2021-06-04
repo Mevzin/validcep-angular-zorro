@@ -1,4 +1,6 @@
 import { Component, OnInit } from '@angular/core';
+import { ResultCep } from '../models/resultsceps.interface';
+import { ConectionsService } from '../services/conections.service';
 
 @Component({
   selector: 'app-home',
@@ -7,9 +9,11 @@ import { Component, OnInit } from '@angular/core';
 })
 export class HomeComponent implements OnInit {
 
-  isCollapsed = false;
+  public isCollapsed = false;
 
-  constructor() { }
+  constructor(private conectionsservice: ConectionsService) { }
+
+
 
   ngOnInit() {
   }

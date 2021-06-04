@@ -1,19 +1,238 @@
 {
-  "posts": [
+  "ceps": [
     {
-      "id": 1,
-      "title": "json-server",
-      "author": "typicode"
-    }
-  ],
-  "comments": [
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "gk9O3Tq"
+    },
     {
-      "id": 1,
-      "body": "some comment",
-      "postId": 1
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "Sm3mR6R"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "vmZsLrx"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "iOpdV-C"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "qg5jd8E"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "fZZdpve"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "hXK-xE7"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "2o-AbMq"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "QTgVbgL"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "LjA27TA"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "DTJQhXG"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "OykZftW"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "yyw18Bb"
+    },
+    {
+      "cep": "63507-270",
+      "logradouro": "Rua José da Silva",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "2tsAjR_"
+    },
+    {
+      "cep": "63507-300",
+      "logradouro": "Rua Francisco Orlandinho Sarmento César",
+      "complemento": "",
+      "bairro": "Jardim Oásis",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "GPgSRC1"
+    },
+    {
+      "cep": "63500-200",
+      "logradouro": "Rua Dom Quintino",
+      "complemento": "",
+      "bairro": "São Sebastião",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "jKBeLOu"
+    },
+    {
+      "cep": "63500-205",
+      "logradouro": "Rua José Mendonça",
+      "complemento": "",
+      "bairro": "São Sebastião",
+      "localidade": "Iguatu",
+      "uf": "CE",
+      "ibge": "2305506",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1411",
+      "id": "HDW2XjW"
+    },
+    {
+      "cep": "63610-000",
+      "logradouro": "",
+      "complemento": "",
+      "bairro": "",
+      "localidade": "Mombaça",
+      "uf": "CE",
+      "ibge": "2308500",
+      "gia": "",
+      "ddd": "88",
+      "siafi": "1471",
+      "id": "xnUAu3g"
     }
-  ],
-  "profile": {
-    "name": "typicode"
-  }
+  ]
 }

@@ -1,1 +1,13 @@
-<p>search-cep works!</p>
+<nz-input-group nzSearch nzSize="large" [nzAddOnAfter]="suffixButton">
+  <input #searchBox mask="00000-000" type="text" (input)="validaCep(searchBox.value)" nz-input placeholder="input search text" />
+</nz-input-group>
+<ng-template #suffixButton>
+  <button *ngIf="padrao" nz-button nzType="success" (click)="sendCep($event)" nzSize="large"nzSearch>Adicionar</button>
+</ng-template>
+<div *ngIf="valido">
+  <input nz-input placeholder="CEP"  [disabled]="true" [value]="allCeps.cep ? allCeps.cep : 'Sem cep'"/>
+  <input nz-input placeholder="Rua"  [disabled]="true" [value]="allCeps.logradouro ? allCeps.logradouro : 'Sem endereço'"/>
+  <input nz-input placeholder="Bairro"  [disabled]="true" [value]="allCeps.bairro ? allCeps.bairro : 'Sem bairro'"/>
+  <input nz-input placeholder="Cidade"  [disabled]="true" [value]="allCeps.localidade ? allCeps.localidade : 'Sem localidade'"/>
+  <input nz-input placeholder="Estado"  [disabled]="true" [value]="allCeps.uf ? allCeps.uf : 'Sem estado'"/>
+</div>
