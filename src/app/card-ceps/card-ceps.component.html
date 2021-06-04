@@ -1,0 +1,25 @@
+<div>
+  <h2>Ceps Cadastrados</h2>
+</div>
+<!-- <div *ngFor="let data of allCeps">
+  <div nz-row >
+    <div nz-col nzSpan="6">
+      <nz-card style="width:300px;" [nzTitle]=data.cep>
+
+      </nz-card>
+    </div>
+  </div>
+</div> -->
+
+<div   style="background: #ECECEC;padding:30px;">
+  <div nz-row [nzGutter]="6">
+    <div class="cardValids" nz-col [nzSpan]="6"  *ngFor="let data of allCeps">
+      <nz-card  nzTitle={{data.cep}}>
+        <p>Rua: {{data.logradouro}}</p>
+        <p>Bairro: {{data.bairro}}</p>
+        <p>Cidade: {{data.localidade}}</p>
+        <p>Estado: {{data.uf}}</p>
+      </nz-card>
+    </div>
+  </div>
+</div>
